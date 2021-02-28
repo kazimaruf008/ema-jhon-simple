@@ -1,0 +1,26 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.product-name{
+    margin-left: 10px;
+}
+.product-name h4:hover{
+    color: blue;
+    font-weight: 400;
+}
+.product-name h3,p{
+    margin: 0px;
+    padding: 0px;
+}
+.cart-btn{
+    background-color: yellowgreen;
+    color: white;
+    padding:5px 40px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 10px;
+    cursor: pointer;
+}
